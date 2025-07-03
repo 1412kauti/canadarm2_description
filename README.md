@@ -35,10 +35,16 @@ source install/setup.bash
 ```
 
 
-### 2. Visualize in RViz
+### 2.1 Visualize in RViz
 
 ```bash
 ros2 launch canadarm2_description display.launch.py
+```
+
+### 2.2 Visualize in Gazebo
+
+```bash
+ros2 launch canadarm2_description gazebo.launch.py
 ```
 
 ## Usage in Other Simulators
