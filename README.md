@@ -20,22 +20,31 @@ It provides the URDF, meshes, and launch files needed for visualization and simu
 
 
 ## Quick Start
-
+### Prerequisites
+```bash
+sudo apt install ros-humble-joint-state-publisher ros-humble-joint-state-publisher-gui ros-humble-robot-state-publisher ros-humble-rviz2 ros-humble-gazebo-ros -y
+```
 ### 1. Clone and Build
 
 ```bash
 cd ~/ros2_ws/src
-git clone https://github.com/YOUR_USERNAME/canadarm2_description.git
+git clone https://github.com/1412kauti/canadarm2_description.git
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
 ```
 
 
-### 2. Visualize in RViz
+### 2.1 Visualize in RViz
 
 ```bash
 ros2 launch canadarm2_description display.launch.py
+```
+
+### 2.2 Visualize in Gazebo
+
+```bash
+ros2 launch canadarm2_description gazebo.launch.py
 ```
 
 ## Usage in Other Simulators
@@ -46,7 +55,6 @@ ros2 launch canadarm2_description display.launch.py
 ```bash
 urdf-viz urdf/canadarm2.urdf
 ```
-
 ## License
 
 [MIT](LICENSE)
