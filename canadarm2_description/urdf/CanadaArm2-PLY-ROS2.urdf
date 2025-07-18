@@ -186,7 +186,7 @@
   <parent link="base_link"/>
   <child link="link_11"/>
   <axis xyz="-0.0 0.0 -1.0"/>
-  <limit upper="6.283185" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="3.141593" lower="-3.141593" effort="100" velocity="100"/>
 </joint>
 <transmission name="joint_1_tran">
   <type>transmission_interface/SimpleTransmission</type>
@@ -204,7 +204,7 @@
   <parent link="link_11"/>
   <child link="link_21"/>
   <axis xyz="-1.0 0.0 0.0"/>
-  <limit upper="6.283185" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="3.141593" lower="-3.141593" effort="100" velocity="100"/>
 </joint>
 <transmission name="joint_2_tran">
   <type>transmission_interface/SimpleTransmission</type>
@@ -222,7 +222,7 @@
   <parent link="link_21"/>
   <child link="link_31"/>
   <axis xyz="0.0 0.0 1.0"/>
-  <limit upper="6.283185" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="3.141593" lower="-3.141593" effort="100" velocity="100"/>
 </joint>
 <transmission name="joint_3_tran">
   <type>transmission_interface/SimpleTransmission</type>
@@ -240,7 +240,7 @@
   <parent link="link_31"/>
   <child link="link_41"/>
   <axis xyz="0.0 0.0 1.0"/>
-  <limit upper="6.283185" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="3.141593" lower="-3.141593" effort="100" velocity="100"/>
 </joint>
 <transmission name="joint_4_tran">
   <type>transmission_interface/SimpleTransmission</type>
@@ -258,7 +258,7 @@
   <parent link="link_41"/>
   <child link="link_51"/>
   <axis xyz="-0.0 0.0 1.0"/>
-  <limit upper="6.283185" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="3.141593" lower="-3.141593" effort="100" velocity="100"/>
 </joint>
 <transmission name="joint_5_tran">
   <type>transmission_interface/SimpleTransmission</type>
@@ -276,7 +276,7 @@
   <parent link="link_51"/>
   <child link="link_61"/>
   <axis xyz="-1.0 -0.0 0.0"/>
-  <limit upper="6.283185" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="3.141593" lower="-3.141593" effort="100" velocity="100"/>
 </joint>
 <transmission name="joint_6_tran">
   <type>transmission_interface/SimpleTransmission</type>
@@ -294,7 +294,7 @@
   <parent link="link_61"/>
   <child link="link_71"/>
   <axis xyz="0.0 -1.0 0.0"/>
-  <limit upper="6.283185" lower="0.0" effort="100" velocity="100"/>
+  <limit upper="3.141593" lower="-3.141593" effort="100" velocity="100"/>
 </joint>
 <transmission name="joint_7_tran">
   <type>transmission_interface/SimpleTransmission</type>
