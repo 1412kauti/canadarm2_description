@@ -29,7 +29,7 @@ It provides the URDF, meshes, and launch files needed for visualization and simu
 
 ## Acknowledgments
 
-- Original Files found [here](https://www.printables.com/model/235290-canada-arm-2)
+- Original Files found [here](https://www.thingiverse.com/thing:5424067)
 - ROS 2 and open-source robotics community
 
 **Happy simulating! 🤖**
