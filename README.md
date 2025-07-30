@@ -23,6 +23,7 @@ It provides the URDF, meshes, and launch files needed for visualization and simu
 1. [ROS2 Humble](https://github.com/1412kauti/canadarm2_description/tree/ros2-humble)
 2. [ROS2 Jazzy](https://github.com/1412kauti/canadarm2_description/tree/ros2-jazzy)
 
+## [Wiki](https://github.com/1412kauti/canadarm2_description/wiki)
 ## License
 
 [MIT](LICENSE)
